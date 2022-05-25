@@ -36,7 +36,7 @@ const Exchange = () => {
     <div className={style.wrapper}>
       <form className={style.form} onSubmit={handleSubmit}>
         <label htmlFor="" className={style.common}>
-          Choose currency :
+          Choose currency from:
           <select name="" value={optionTo} onChange={handleChangeOptionTo}>
             <option value="default">----</option>
             <option value="USD">USD</option>
@@ -57,7 +57,7 @@ const Exchange = () => {
         </label>
 
         <label htmlFor="" className={style.common}>
-          Choose currency to which:
+          Choose currency to:
           <select name="" value={optionFrom} onChange={handleChangeOptionFrom}>
             <option value="default">----</option>
             <option value="USD">USD</option>
