@@ -18,7 +18,7 @@ export default function App() {
   return (
     <div>
       <h1>Current exchange rate for {today}</h1>
-      {loading && <h2>Please wait. Loading...</h2>}
+      {loading && <h3>Please wait. Loading...</h3>}
       <Tablo />
       <Exchange />
     </div>
