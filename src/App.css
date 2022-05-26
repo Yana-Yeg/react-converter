@@ -4,9 +4,13 @@ p {
 }
 span {
   font-weight: 600;
-  color: blue;
+  /* color: blue; */
 }
 img {
   width: 230px;
   margin-left: 50px;
+}
+h2 {
+  color: blue;
+  font-size: 40px;
 }

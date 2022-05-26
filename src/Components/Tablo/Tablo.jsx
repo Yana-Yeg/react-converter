@@ -3,12 +3,6 @@ import { getCounterResult } from "../../redux/counterSelector";
 
 const Tablo = () => {
   const counterResult = useSelector(getCounterResult);
-  // console.log("counterResult :>> ", Object.assign(counterResult));
-  //   const result = Object.entries(counterResult).map((entry) => ({
-  //     [entry[0]]: entry[1],
-  //   }));
-  //   const arr = [...result];
-  //   console.log(arr);
   const arrKeys = Object.keys(counterResult);
   const arrValues = Object.values(counterResult);
   const arrUSD = [arrKeys[0], arrValues[0]];
