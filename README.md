@@ -1,4 +1,4 @@
-Application for convertation currency
+Application for currency converting
 
 Header - Shows the current exchange rate against UAH
 
